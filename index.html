@@ -9,20 +9,78 @@
 
 <style>
 
-  #infoButtons{
-    margin-left: 50%;
-  }
 
+  #4thYear{
+    color: grey;
+  }
   #imagesWorkExp {
     border: none;
     margin-left: 2em;
   }
 
+footer{
+  text-align: center;
+  padding:  3px;
+  background-color: grey;
+  color: white;
+}
+
  p, li, td {
   color:honeydew;
   }
 
-  #about, #education, #workExperience, #project, #skills, #kyckr, #uniphar, #pharmapod, #Title {
+  #about{
+    text-align: center;
+    margin-left: 2em;
+    padding-top: 5em;
+    background-color: gray;
+  } 
+  
+  #education{
+    margin-left: 2em;
+    padding-top: 5em;
+    background-color: gray;
+  } 
+  
+  #workExperience{
+    margin-left: 2em;
+    padding-top: 5em;
+    background-color: gray;
+  } 
+  
+  #project{
+    text-align: center;
+    margin-left: 2em;
+    padding-top: 5em;
+    background-color: gray;
+  } 
+ 
+  #skills{
+    margin-left: 2em;
+    padding-top: 5em;
+    background-color: gray;
+  } 
+ 
+  #kyckr{
+    margin-left: 2em;
+    padding-top: 5em;
+    background-color: gray;
+  } 
+  
+  #uniphar{
+    margin-left: 2em;
+    padding-top: 5em;
+    background-color: gray;
+  } 
+  
+  #pharmapod{
+    margin-left: 2em;
+    padding-top: 5em;
+    background-color: gray;
+  }
+   
+   #Title {
+    text-align: center;
     margin-left: 2em;
     padding-top: 5em;
     background-color: gray;
@@ -33,7 +91,7 @@
 </style>
 
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50"> 
     <div class="container-fluid" style="background-color: black;">
     <nav class="navbar navbar-inverse " style="position: fixed; width: 100%">
         <div class="container-fluid">
@@ -41,7 +99,6 @@
             <a class="navbar-brand" href="#top">Wayne Carruth</a>
           </div>
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#workExperience">Work Experience</a></li>
@@ -62,12 +119,12 @@
           <h4>You can download my CV or contact me below</h4>
           <div id="infoButtons">
             
-            <img src="IMG_20201005_212307.jpg" alt="Wayne Carruth" width="160" height="160">
+            <img src="IMG_20201005_212307.jpg" alt="Wayne Carruth" width="auto" height="160">
             <form method="get" action="Curriculum vitae.docx">
             <button type="Submit" class="btn btn-success">Download CV</button>
             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myContact">Contact Me</button>
             </form>
-            <a href="https://waynecarruth84.github.io/waynesCV/" target="_blank"><img src="GitHub.png"></a>
+            <a href="https://github.com/waynecarruth84" target="_blank"><img src="GitHub.png"></a>
           </div>
 
         </div>
@@ -390,18 +447,18 @@
 
       <div id="project">
         <h1>My Projects</h1>
-        <p>this is where I talk about my projects</p>
-        <ul>
-          <li>My 4th Year Project
-            <p>My 4th year project that I am currently working on is a web app that will show some anayltics and stats about a user when he is playing League of Legends this is a whole year long project so the project needs to stay on top of or else I wont be able to get it done. I am using Razor Pages c# as the MVC framework </p>
-          </li>
-          <li>My 2nd year Prject
-            <p>in second year we were split into groups of 3 and me and my group worked on a website where you could buy games we split the work evenly and because of issues where code could end having merge issues with us working on three different parts we needed to stay on top of things and not fall behind </p>
-          </li>
-          <li>My Brothers Website
-            <p>I worked on a website for my brothers business with my girlfriend, the company and site is called <a href="https://www.Kosaac.com" target="_blank">Kosaac</a></p>
-          </li>
-        </ul>
+        <p>This is some of my projects</p>
+        <button class="btn btn-submit " data-toggle="buttons"><a href="#project" id="4thYear" data-toggle="popover" title="4th Year Project" 
+            data-content="My 4th year project that I am currently working on is a web app that will show some anayltics and stats about a user when he is playing League of Legends this is a whole year 
+            long project so the project needs to stay on top of or else I wont be able to get it done. I am using Razor Pages c# as the MVC framework ">My 4th Year Project</a></button>
+            <p></p> <br><br><br>
+            <button class="btn btn-submit" data-toggle="buttons"><a href="#project" data-toggle="popover" title="2nd Year Porject" data-content="In second year we were split into groups of 3 and me and my group worked on a website where you could buy games we split the work evenly and because of issues 
+            where code could end having merge issues with us working on three different parts we needed to stay on top of things and not fall behind ">My 2nd year Project</a></button>
+            <p></p> <br><br><br>
+            <button class="btn btn-submit" data-toggle="buttons"><a href="#project" data-toggle="popover" title="Brothers Website" data-content="I worked on a website for my brothers business with my girlfriend, the company and site is called Kosaac">My Brothers Website</a></button>
+            <br><br><br>
+            <p></p>
+  
       </div>
   
       <div id="skills">
@@ -430,6 +487,7 @@
         <p>I am also well knoledgeable about the whole DevOps Procedure and how to set up CI/CD pipelines for a Prjoect. </p>
 
         <p> I have a few hobbys, Volleyball, Gaming, and Reading are a few of them that I do to relax. </p>
+        <br>
       </div>
 <br>
       <div class="modal fade" id="myContact" role="dialog" style="display: none;">
@@ -451,6 +509,15 @@
         </div>
       </div>
     </div>
-
+    <footer>
+      <p>Wayne Carruth</p>
+      <a href="mailto:waynecarruth@gmail.com">waynecarruth@gmail.com</a>
+    </footer>
     </body>
 </html>
+
+<script>
+  $(document).ready(function(){
+    $('[data-toggle="popover"]').popover();
+  });
+</script>
