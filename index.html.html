@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style>
+
+  #infoButtons{
+    margin-left: 50%;
+  }
+
+  #imagesWorkExp {
+    border: none;
+    margin-left: 2em;
+  }
+
+ p, li, td {
+  color:honeydew;
+  }
+
+  #about, #education, #workExperience, #project, #skills, #kyckr, #uniphar, #pharmapod, #Title {
+    margin-left: 2em;
+    padding-top: 5em;
+    background-color: gray;
+  }
+
+  
+
+</style>
+
+  </head>
+  <body>
+    <div class="container-fluid" style="background-color: black;">
+    <nav class="navbar navbar-inverse " style="position: fixed; width: 100%">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#top">Wayne Carruth</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#workExperience">Work Experience</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <header>
+        <br><br>
+        <div id="Title">
+        <h1>Welcome</h1>
+        <p>This is a Website CV which goes through details about myself, my education, 
+          my work experience, my projects wheter they were college work or side projects, 
+          and finally my skills.</p>
+        
+          <h4>You can download my CV or contact me below</h4>
+          <div id="infoButtons">
+            
+            <img src="IMG_20201005_212307.jpg" alt="Wayne Carruth" width="160" height="160">
+            <form method="get" action="Curriculum vitae.docx">
+            <button type="Submit" class="btn btn-success">Download CV</button>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myContact">Contact Me</button>
+            </form>
+            <a href="https://github.com/waynecarruth84" target="_blank"><img src="GitHub.png"></a>
+          </div>
+
+        </div>
+      </header>
+
+      <div id="about">
+        <h1>About me </h1>
+        <h3>Back-History</h3>
+        <p>My name is Wayne Carruth and I have always been interested in computers even 
+          when I was younger I was the only one in my family that had an interest in how they worked, as I got older my interest shifted from computers themselves to the software on them and also video games I was always wondering how they made them or what is going on in the background while its running.
+        when I ended up telling my family that I wanted to do Software development when I was in 3rd year of secondary school they were not surprised in the least. So I started learning code in 5th year of secondary school I started with C++ which as I look at it now was really idiotic but I did not know at the time how complex it was compared to other coding languages such as java.
+        so I made a calculator as the first thing and showed my parents I think that is when they first realised that I could do this. My parents never discouraged anyone in my family from doing anything, I think they just had doubts about this with software development always back in the day being seen as a difficult thing to learn especially to my parents who were not tech savy.
+       </p>
+       <h3>Currently</h3>
+       <p>I am in my 4th Year Computing Software Development in Tu Dublin Tallaght and at the moment looking for a job when I finish up my degree to get back in the Work field.
+          I will probably take another course after a few years for game design, but for right now I am eager to get back out into the work field.</p>
+        
+      </div>
+      
+      <div id="education">
+        <h1>This is all about my Education</h1>
+        <p>These are the subjects and grades I recieved throughout my learning in Tu Dublin Tallaght from 1st Year to 4th Year</p>
+
+        <ul class="nav nav-pills">
+					<li class="active"><a  href="#4a" data-toggle="tab" style="color: lightskyblue;">Fourth Year</a></li>
+					<li><a  href="#3a" data-toggle="tab" style="color: lightskyblue;" >Third Year</a></li>
+					<li><a  href="#2a" data-toggle="tab" style="color: lightskyblue;">Second Year</a></li>
+					<li><a  href="#1a" data-toggle="tab" style="color: lightskyblue;">First Year</a></li>
+        </ul>
+        
+        <div class="tab-content clearfix">
+          <div class="tab-pane active" id="4a">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>
+                    Subject
+                  </th>
+                  <th>
+                    Grade
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>IMD</td>
+                  <td>N/A</td>
+                  </tr>
+                  <tr>
+                  <td>Information Management</td>
+                  <td>N/A</td>
+                  </tr>
+                  <tr>
+                  <td>DevOps</td>
+                  <td>N/A</td>
+                  </tr>
+                  <tr>
+                  <td>Enterprise Applications Development 1</td>
+                  <td>N/A</td>
+                  </tr>
+                  <tr>
+                  <td>Enterprise Performance Architecture</td>
+                  <td>N/A</td>
+                  </tr>
+                  <tr>
+                  <td>4th Year Project</td>
+                  <td>N/A</td>
+                  </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="tab-pane" id="3a">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>
+                    Subject
+                  </th>
+                  <th>
+                    Grade
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Data Structures and Algortihims </td>
+                  <td>C+</td>
+                  </tr>
+                  <tr>
+                  <td>Cloud Services & Distribution</td>
+                  <td>C</td>
+                  </tr>
+                  <tr>
+                  <td>Server-side Web Development</td>
+                  <td>B-</td>
+                  </tr>
+                  <tr>
+                  <td>Big Data Technologies</td>
+                  <td>c</td>
+                  </tr>
+                  <tr>
+                  <td>Data Analysis</td>
+                  <td>D</td>
+                  </tr>
+                  <tr>
+                  <td>Operating Systems</td>
+                  <td>D</td>
+                  </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="tab-pane" id="2a">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>
+                    Subject
+                  </th>
+                  <th>
+                    Grade
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Web & Mobile Design</td>
+                  <td>D</td>
+                  </tr>
+                  <tr>
+                  <td>Discrete Mathematics 2</td>
+                  <td>D</td>
+                  </tr>
+                  <tr>
+                  <td> Database Design & Programming</td>
+                  <td>C</td>
+                  </tr>
+                  <tr>
+                  <td> Networking 1</td>
+                  <td>c</td>
+                  </tr>
+                  <tr>
+                  <td>Software Qual Ass & Testing</td>
+                  <td>C+</td>
+                  </tr>
+                  <tr>
+                  <td>Software Development 3</td>
+                  <td>C+</td>
+                  <tr>
+                  <td>Information Security </td>
+                  <td>C</td>
+                  </tr>
+                  <tr>
+                  <td>Object Oriented Analysis & Design</td>
+                  <td>D</td>
+                  </tr>
+                  <tr>
+                  <td>Management Science</td>
+                  <td>B-</td>
+                  </tr>
+                  <tr>
+                  <td>Networking 2</td>
+                  <td>D</td>
+                  </tr>
+                  <tr>
+                  <td>Software Development 4</td>
+                  <td>C</td>
+                  </tr>
+                  <tr>
+                  <td>Project</td>
+                  <td>C+</td>
+                  </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="tab-pane" id="1a">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>
+                    Subject
+                  </th>
+                  <th>
+                    Grade
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Learning to Learn at 3rd Lvl</td>
+                  <td>B</td>
+                  </tr>
+                  <tr>
+                  <td>Discrete Mathematics 1</td>
+                  <td>B</td>
+                  </tr>
+                  <tr>
+                  <td>Business & Information System</td>
+                  <td>B</td>
+                  </tr>
+                  <tr>
+                  <td>Fundament of Interface & Web Design	
+                  </td>
+                  <td>B</td>
+                  </tr>
+                  <tr>
+                  <td>Computer Architecture</td>
+                  <td>B</td>
+                  </tr>
+                  <tr>
+                  <td>Software Development 1</td>
+                  <td>B</td>
+                  <tr>
+                  <td>Operating System Fundamentals</td>
+                  <td>C+</td>
+                  </tr>
+                  <tr>
+                  <td>Database Fundamentals</td>
+                  <td>C</td>
+                  </tr>
+                  <tr>
+                  <td>Statistics</td>
+                  <td>B</td>
+                  </tr>
+                  <tr>
+                  <td>Social Media Communications</td>
+                  <td>B</td>
+                  </tr>
+                  <tr>
+                  <td>Software Development 2</td>
+                  <td>B</td>
+                  </tr>
+                  <tr>
+                  <td>Object Oriented System Analysis</td>
+                  <td>C</td>
+                  </tr>
+              </tbody>
+            </table>
+          </div>
+
+        </div>
+
+      </div>
+      
+      <div id="workExperience">
+        <h1>This Section is about my Work Excperience </h1>
+        <h3>These are the places I worked in at one point</h3>
+        <a href="#uniphar">
+        <button id="imagesWorkExp"><img src="uniphar.jfif" alt="uniphar"></button>
+      </a>
+        <a href="#pharmapod">
+        <button id="imagesWorkExp"><img src="download.jfif" alt="Pharmapod"></button>
+      </a>
+        <a href="#kyckr">
+        <button id="imagesWorkExp"><img src="kyckr.png" alt="kyckr"></button>
+        </a>
+
+        <div id="uniphar">
+        <h4>Uniphar</h4>
+
+        <p>I had a part time job when I was in college in a company called Uniphar the job was just to help me through college but did teach me a few things about having a job
+           like responsibility and time efficency. Which I think helped when it came to projects in college and getting stuff done when I was out on my internships and working full time.</p>
+           <a href="#workExperience">
+            <button class="btn btn-success">Back</button>
+            </a>
+        </div>
+        
+
+        <div id="kyckr">
+        
+        <h4>Kyckr</h4>
+        <p>What I learned</p>
+        <ul>  
+            <li>I started off with some QA on the website to get familar with it so I was underneath Emma Synnot at the time</li>
+            <li>after becoming familar with the website it was time to get into the coding so I mainly did front end changes which revolved around me getting help from Seamus O'Higgins</li>
+        </ul>
+        
+        
+        <p> What languages they used </p>
+        <p>What i learned that they use there from the small amount of time I was there was that they used c#.</p>
+        <p>
+          Kyckr is the First place I went to in my internship for third year, I got in to this company because my father knew the CTOs brother and told him about me and im looking for an internship,
+           which I was happy happened as that shaped how I continued with my carrer as the CTO and a few developers ended up leaving Kyckr after 2 months and got in contact with me if I wanted to continue my internship over there with them in the start up.
+            I thought it was a good idea so I was in contact with my supervisor over the fact that I got offered a new place in another company and that I was going to take it. 
+            The reasons why I left kyckr where because I ended up being the last developer in the dublin office and that is an issue as I was an intern and in fairness working remotly from people became a norm in 2020
+             I felt like for me to learn I needed someone to help in case I had any issues with my pc or code and nobody was available online so id need someone close by. The Software developers that were in kyckrs dublin office were really nice guys they showed me what to do and were one of the main reasons I followed to Pharmapod as they could teach me alot.
+             They were both from Tu Dublin tallaght back when it was called IT Tallaght which is cool to see that they got around to places and they both had different experience the main software developer went on and completed 4th year while the Database Analyst went out to business after 3rd year. 
+             at the time I was wondering myself about doing 4th year so it was good to see both sides of doing it and not.  
+
+        </p>
+        <a href="#workExperience">
+          <button class="btn btn-success">Back</button>
+          </a>
+      </div>
+
+      <div id="pharmapod">
+        <h4>Pharmapod</h4>
+        <p>Languages Used</p>
+        <ul>
+          <li>php with Laravel Framework</li>
+          <li>Java with Spring Framework</li>
+          <li>Angular</li>
+          <li>VUE.js</li>
+        </ul>
+        <p>Pharmapod is the Company I left Kyckr to continue my internship for 3rd year in when I completed my internship I continued on working for them instead of going and doing 4th year
+           but I decided after working for them full time I need to go back and finish the last year just to upskill, the people in pharmapod were really nice. 
+           The company was a pharmaceutical report system, they had a system where you could submit near miss issues when a pharmacy is prescribing drugs. the systems goal was to record incidents that pharmacists make so that they learn from it so it never happens again
+          . The whole system is really cool and one of the reasons I stayed on to work full time as a junior software developer. I started as an intern who worked on everything 
+          I worked on both the old and new project at the time mainly underneath Gavin Kenna. and when I came full time I was brought underneath the PS team to help with issues on the main system that users had but still worked on the new project when I had the time.
+         </p>
+      
+           <a href="#workExperience">
+            <button class="btn btn-success">Back</button>
+            </a>
+          </div>    
+      </div>
+  
+
+      <div id="project">
+        <h1>My Projects</h1>
+        <p>this is where I talk about my projects</p>
+        <ul>
+          <li>My 4th Year Project
+            <p>My 4th year project that I am currently working on is a web app that will show some anayltics and stats about a user when he is playing League of Legends this is a whole year long project so the project needs to stay on top of or else I wont be able to get it done. I am using Razor Pages c# as the MVC framework </p>
+          </li>
+          <li>My 2nd year Prject
+            <p>in second year we were split into groups of 3 and me and my group worked on a website where you could buy games we split the work evenly and because of issues where code could end having merge issues with us working on three different parts we needed to stay on top of things and not fall behind </p>
+          </li>
+          <li>My Brothers Website
+            <p>I worked on a website for my brothers business with my girlfriend, the company and site is called <a href="https://www.Kosaac.com" target="_blank">Kosaac</a></p>
+          </li>
+        </ul>
+      </div>
+  
+      <div id="skills">
+        <h1>This is about my skills and hobbys </h1>
+        <p>Coding languages I know</p>
+        <ul>
+          <li>Java with Spring Framework</li>
+          <li>Php with Laravel Framework</li>
+          <li>C++</li>
+          <li>C#</li>
+          <li>Angular</li>
+        </ul>
+
+        <p>Media Design</p>
+        <ul>
+          <li>R</li>
+          <li>Tableau</li>
+        </ul>
+
+        <p>Database</p>
+        <ul>
+          <li>Mysql</li>
+          <li>MongoDB</li>
+        </ul>
+
+        <p>I am also well knoledgeable about the whole DevOps Procedure and how to set up CI/CD pipelines for a Prjoect. </p>
+
+        <p> I have a few hobbys, Volleyball, Gaming, and Reading are a few of them that I do to relax. </p>
+      </div>
+<br>
+      <div class="modal fade" id="myContact" role="dialog" style="display: none;">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h1 class ="modal-title">This is how you can get in contact with me </h1>
+            </div>
+            <div class="modal-body">
+              <p>Full Name : Wayne Carruth</p>
+              <p>Phone Number is : 0838939169</p>
+              <p>Email is : waynecarruth@gmail.com</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </body>
+</html>
